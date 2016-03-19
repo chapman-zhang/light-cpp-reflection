@@ -5,13 +5,13 @@
 ```cpp
 r(int a, a); //declare an int named a in class Test
 ```
-<br>然后可以通过以下方式来获取或者修改它的值
+然后可以通过以下方式来获取或者修改它的值
 <br>
 ```cpp
 Test T; //实例化 Test
 Test::setValue<int>(&t, "a", 5); //将t.a置为5
 a = Test::getValue<int>(&t, "a");  // 获取t.a的值。a = 5
-```cpp
+```
 <br><br>
 <br>LightCppReflection is a light c++ reflection library. You can get or set a field by field's name. So it is very easy to serialize an object to Json or Xml, or generate SQL. Because this library dosen't depends on C++ code generator, you don't need to modify your develop environment.
 <br>Using LightCppReflection, you just need to declare a field like this:
@@ -19,7 +19,7 @@ a = Test::getValue<int>(&t, "a");  // 获取t.a的值。a = 5
 ```cpp
 r(int a, a); //declare an int named a in class Test
 ```
-<br>You can get or set it's value using:
+You can get or set it's value using:
 <br>
 ```cpp
 Test T; //construct a Test
